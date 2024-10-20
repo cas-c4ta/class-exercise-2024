@@ -17,15 +17,15 @@ Code-Bausteine werden an Josef gesendet, er baut es ein.
 
 ## To-Dos
 
-- [] `show()` Methode 
+- [ ] `show()` Methode 
   - Wie sieht das Phänomen aus?
   - Welche Eigenschaften benötigt es dafür?
   - Wie unterscheiden sich verschiedene Instanzen?
-- [] `move()` Methode
+- [ ] `move()` Methode
    - Welche Bewegungen sind denkbar?
    - Wodurch wird eine Bewegung ausgelöst?
    - Welche Eigenschaften sind dafür notwendig?
    - Wie beeinflusst die Bewewgung das Ausssehen des Phänomens?
-- [] `develop()`
+- [ ] `develop()`
   - Wie entwickelt sich das Phänomen?
   - Wie beeinflusst die Entwicklung das Ausssehen des Phänomens?
