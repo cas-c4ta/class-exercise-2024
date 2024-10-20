@@ -10,7 +10,7 @@ Zusammen entwickelt ihr ein Programm, dass ein Phänomen abbildet
 
 Code-Bausteine werden an Josef gesendet, er baut es ein.
 
-## Teams
+## Teams
 - Dominik und Niklas: Aussehen
 - Maria und Caroline: Bewegung
 - Arisa und Mel: Enwicklung
