@@ -14,7 +14,7 @@ Code-Bausteine werden an Josef gesendet, er baut es ein.
 ## Teams
 - Dominik und Niklas: Aussehen
 - Maria und Caroline: Bewegung
-- Arisa und Mel: Enwicklung
+- Arisa und Mel: Entwicklung
 
 ## To-Dos
 
@@ -28,11 +28,11 @@ Code-Bausteine werden an Josef gesendet, er baut es ein.
    - [ ] Welche Bewegungen sind denkbar?
    - [ ] Wodurch wird eine Bewegung ausgelöst?
    - [ ] Welche Eigenschaften sind dafür notwendig?
-   - [ ] Wie beeinflusst die Bewewgung das Ausssehen des Phänomens?
+   - [ ] Wie beeinflusst die Bewegung das Aussehen des Phänomens?
 - [ ] Methode `phenomenon.develop()`
   - [ ] Wie entwickelt sich das Phänomen?
   - [ ] Was löst eine Entwicklung aus?
-  - [ ] Wie beeinflusst die Entwicklung das Ausssehen des Phänomens?
+  - [ ] Wie beeinflusst die Entwicklung das Aussehen des Phänomens?
 - [ ] setup()
   - [ ] Wie gross ist der Canvas?
   - [ ] Wie viele Instanzen des Phänomens gibt es?
