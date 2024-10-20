@@ -1,8 +1,8 @@
 # Das Phänomen
 
-Was ist das Phänomen?
+Zusammen entwickelt ihr ein Programm, dass ein Phänomen abbildet.
 
-Zusammen entwickelt ihr ein Programm, dass ein Phänomen abbildet
+Aber zuerst einmal muss geklärt werden, was das Phänomen ist.
 
 - Besprecht zu zweit Ideen, um das Phänomen zum Leben zu erwecken.
 - Tauscht euch mit den anderen Gruppen aus, damit es zusammenpasst.
