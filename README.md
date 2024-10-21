@@ -19,9 +19,9 @@ Code-Bausteine werden an Josef gesendet, er baut es ein.
 ## To-Dos
 
 - [ ] Methode `phenomenon.show()`
-  - [ ] Wie sieht das Phänomen aus?
-  - [ ] Welche Eigenschaften benötigt es dafür?
-  - [ ] Wie unterscheiden sich verschiedene Instanzen?
+  - [x] Wie sieht das Phänomen aus?
+  - [x] Welche Eigenschaften benötigt es dafür?
+  - [x] Wie unterscheiden sich verschiedene Instanzen?
   - [ ] Wie werden verschiedene Instanzen abgebildet?
   - [ ] Wie viel Raum benötigt eine Instanz?
 - [ ] Methode `phenomenon.move()`
