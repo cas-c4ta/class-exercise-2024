@@ -16,7 +16,7 @@ class Phenomenon {
     this.shape = this.shapeOptions[floor(random(this.shapeOptions.length))]
     this.size = s;
     
-    // Mel’s Code
+    this.lastMouseX = 0
     this.x = x;
     this.y = y;
     let cx = null;
@@ -35,7 +35,6 @@ class Phenomenon {
       cy = this.y + this.orbitRadius * sin(this.orbitAngle)
     }
     this.orbitCenter = { cx, cy } 
-
   }
 
   move() {
@@ -43,6 +42,18 @@ class Phenomenon {
     this.orbitAngle += this.orbitSpeed
     this.x = this.orbitCenter.cx + this.orbitRadius * cos(this.orbitAngle) 
     this.y = this.orbitCenter.cy + this.orbitRadius * sin(this.orbitAngle) 
+  }
+  
+  develop() {
+    let threshold = 20
+    if (abs(mouseX - this.lastMouseX) > threshold) {
+      if (mouseX > this.lastMouseX) {
+        this.size += 2
+      } else {
+        this.size -= 2
+      }
+      this.lastMouseX = mouseX
+    }
   }
 
   mapMouseY() {

@@ -1,35 +1,36 @@
-let phens = []
+const phens = []
 
-// Task:
-// Eine Funktion, die die Distanzen zwischen den P. vergleicht
-
-// Task:
-// Etwas, das darüber Buch führt, welche P. verbunden werden
-
-// Task:
-// Die Verbindungen zeichnen
+let bgCol = 255
+let strokeCol = 0
+const numPhenomenons = 50
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(windowWidth, windowHeight);
   rectMode(CENTER)
-  for (let i = 0; i < 10; i++) {
-    phens.push(new Phenomenon(random(400), random(400), 40));
+  for (let i = 0; i < numPhenomenons; i++) {
+    phens.push(new Phenomenon(random(windowWidth), random(windowHeight), 40));
   }
 }
 
 function draw() {
-  background(120);
+
+  background(bgCol);
+  stroke(strokeCol)
+  fill(strokeCol)
+
   for (let phen of phens) {
     phen.mapMouseY()
     phen.move()
+    phen.develop()
     phen.show()
     // phen.showOrbit()
   }
+
+  // compar distances and draw lines
   compareDistances()
 }
 
 function compareDistances() {
-
   for (let i = 0; i < phens.length - 1; i += 1) {
     let currentX = phens[i].x
     let currentY= phens[i].y
@@ -40,11 +41,18 @@ function compareDistances() {
       let distPhens = dist(currentX, currentY, nextX, nextY)
       // draw Line if short distance
       if (distPhens < 100) {
-        push()
-        stroke(255)
         line(currentX, currentY, nextX, nextY)
-        pop()
       }
     }
   }
+}
+
+function mouseClicked() {
+    if (bgCol == 255) {
+      bgCol = 0
+      strokeCol = 255
+    } else {
+      bgCol = 255
+      strokeCol = 0
+    }
 }
