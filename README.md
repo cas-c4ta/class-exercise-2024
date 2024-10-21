@@ -22,18 +22,18 @@ Code-Bausteine werden an Josef gesendet, er baut es ein.
   - [x] Wie sieht das Phänomen aus?
   - [x] Welche Eigenschaften benötigt es dafür?
   - [x] Wie unterscheiden sich verschiedene Instanzen?
-  - [ ] Wie werden verschiedene Instanzen abgebildet?
+  - [x] Wie werden verschiedene Instanzen abgebildet?
   - [ ] Wie viel Raum benötigt eine Instanz?
-- [ ] Methode `phenomenon.move()`
-   - [ ] Welche Bewegungen sind denkbar?
-   - [ ] Wodurch wird eine Bewegung ausgelöst?
-   - [ ] Welche Eigenschaften sind dafür notwendig?
-   - [ ] Wie beeinflusst die Bewegung das Aussehen des Phänomens?
-- [ ] Methode `phenomenon.develop()`
-  - [ ] Wie entwickelt sich das Phänomen?
-  - [ ] Was löst eine Entwicklung aus?
-  - [ ] Wie beeinflusst die Entwicklung das Aussehen des Phänomens?
-- [ ] setup()
-  - [ ] Wie gross ist der Canvas?
-  - [ ] Wie viele Instanzen des Phänomens gibt es?
-  - [ ] Wann werden die Instanzen generiert?
+- [x] Methode `phenomenon.move()`
+   - [x] Welche Bewegungen sind denkbar?
+   - [x] Wodurch wird eine Bewegung ausgelöst?
+   - [x] Welche Eigenschaften sind dafür notwendig?
+   - [x] Wie beeinflusst die Bewegung das Aussehen des Phänomens?
+- [x] Methode `phenomenon.develop()`
+  - [x] Wie entwickelt sich das Phänomen?
+  - [x] Was löst eine Entwicklung aus?
+  - [x] Wie beeinflusst die Entwicklung das Aussehen des Phänomens?
+- [x] setup()
+  - [x] Wie gross ist der Canvas?
+  - [x] Wie viele Instanzen des Phänomens gibt es?
+  - [x] Wann werden die Instanzen generiert?
